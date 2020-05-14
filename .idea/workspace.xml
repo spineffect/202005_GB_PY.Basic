@@ -19,18 +19,13 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/Week-1.1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:week-1.2" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f8d798-ca19-47d7-9f58-8697eff5ce85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les1_Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Les1_Ex4.py" afterDir="false" />
-    </list>
+    <list default="true" id="09f8d798-ca19-47d7-9f58-8697eff5ce85" name="Default Changelist" comment="HW 1.1 was updated&#10;Изменен способ решения задачи 4 (без использования len() и массивов." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,6 +112,21 @@
       <option name="presentableId" value="Default" />
       <updated>1589417136613</updated>
     </task>
+    <task id="LOCAL-00001" summary="HW 1.1 was updated&#10;Изменен способ решения задачи 4 (без использования len() и массивов.">
+      <created>1589467022983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589467022983</updated>
+    </task>
+    <task id="LOCAL-00002" summary="HW 1.1 was updated&#10;Изменен способ решения задачи 4 (без использования len() и массивов.">
+      <created>1589467056776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589467056776</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +140,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Week-1.1" />
+                        <option value="week-1.2" />
                       </list>
                     </value>
                   </entry>
@@ -145,32 +155,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="HW 1.1 was updated&#10;Изменен способ решения задачи 4 (без использования len() и массивов." />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 1.1 was updated&#10;Изменен способ решения задачи 4 (без использования len() и массивов." />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589418938212">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589418938212" />
-    <state width="1398" height="192" key="GridCell.Tab.0.bottom" timestamp="1589466725934">
+    <state width="1398" height="192" key="GridCell.Tab.0.bottom" timestamp="1589467118903">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1379" height="204" key="GridCell.Tab.0.bottom/0.23.1440.836/-549.-1057.2560.1057@0.23.1440.836" timestamp="1589417916959" />
-    <state width="1398" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589466725934" />
-    <state width="1398" height="192" key="GridCell.Tab.0.center" timestamp="1589466725933">
+    <state width="1398" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589467118903" />
+    <state width="1398" height="192" key="GridCell.Tab.0.center" timestamp="1589467118900">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1379" height="204" key="GridCell.Tab.0.center/0.23.1440.836/-549.-1057.2560.1057@0.23.1440.836" timestamp="1589417916957" />
-    <state width="1398" height="192" key="GridCell.Tab.0.center/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589466725933" />
-    <state width="1398" height="192" key="GridCell.Tab.0.left" timestamp="1589466725931">
+    <state width="1398" height="192" key="GridCell.Tab.0.center/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589467118900" />
+    <state width="1398" height="192" key="GridCell.Tab.0.left" timestamp="1589467118899">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1379" height="204" key="GridCell.Tab.0.left/0.23.1440.836/-549.-1057.2560.1057@0.23.1440.836" timestamp="1589417916956" />
-    <state width="1398" height="192" key="GridCell.Tab.0.left/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589466725931" />
-    <state width="1398" height="192" key="GridCell.Tab.0.right" timestamp="1589466725933">
+    <state width="1398" height="192" key="GridCell.Tab.0.left/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589467118899" />
+    <state width="1398" height="192" key="GridCell.Tab.0.right" timestamp="1589467118902">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1379" height="204" key="GridCell.Tab.0.right/0.23.1440.836/-549.-1057.2560.1057@0.23.1440.836" timestamp="1589417916958" />
-    <state width="1398" height="192" key="GridCell.Tab.0.right/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589466725933" />
+    <state width="1398" height="192" key="GridCell.Tab.0.right/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589467118902" />
     <state x="517" y="150" key="RollbackChangesDialog" timestamp="1589418789848">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
@@ -179,5 +191,9 @@
       <screen x="-549" y="-1057" width="2560" height="1057" />
     </state>
     <state x="22" y="-856" key="SettingsEditor/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589466564725" />
+    <state x="506" y="357" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589467034213">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="506" y="357" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589467034213" />
   </component>
 </project>
