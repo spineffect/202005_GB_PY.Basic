@@ -17,26 +17,37 @@ while True:
             print('Вы ввели число за пределами предложенного диапазона (меньше 1). Поторите попытку. ')
     else:
         print('Вы ввели' , numb1, 'Это неверный ввод. Введите число повторно. ' )
-
-word_letters = list(str_n)  # переводим слово в список (побуквенно)
-max_numb = int(word_letters[-1]) # устанавливаем начальные условия для поиска (макс; индекс)
-idx = 1
+idx = 9    # начинаю проход в обратном порядке - от 9 до 1
 while True:
-    if idx == len(word_letters):
-        print('Максимум: ', max_numb)
+    a = str(idx)
+    if a in str_n:
+        print('Максимум: ', a)
         break
     else:
-        k = int(word_letters[idx-1])
-        print('Значение из списка: ', k, '(шаг  ', idx,' из ',len(word_letters),')')
-        if k > max_numb:
-            max_numb = k
-            print('!!! Вывлено максимальное значение:', max_numb,' (на шаге ',
-                  idx,' из ',len(word_letters),')')
-            idx = idx + 1
-            if max_numb == 9:
-                print('Максимум: ', max_numb)
-                break
-            else:
-                continue
-        else:
-            idx = idx + 1
+        idx -= 1
+
+# закомментировал это решение, так как добавил решение через перебор строчных переменных
+# и проверкой наличия символа в "слове"
+# решение ниже оставлено для истории..
+# word_letters = list(str_n)  # переводим слово в список (побуквенно)
+# max_numb = int(word_letters[-1]) # устанавливаем начальные условия для поиска (макс; индекс)
+# idx = 1
+# while True:
+#    if idx == len(word_letters):
+#        print('Максимум: ', max_numb)
+#        break
+#    else:
+#        k = int(word_letters[idx-1])
+#        print('Значение из списка: ', k, '(шаг  ', idx,' из ',len(word_letters),')')
+#        if k > max_numb:
+#            max_numb = k
+#            print('!!! Вывлено максимальное значение:', max_numb,' (на шаге ',
+#                  idx,' из ',len(word_letters),')')
+#            idx = idx + 1
+#            if max_numb == 9:
+#                print('Максимум: ', max_numb)
+#                break
+#            else:
+#                continue
+#        else:
+#            idx = idx + 1

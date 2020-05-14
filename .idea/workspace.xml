@@ -27,7 +27,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f8d798-ca19-47d7-9f58-8697eff5ce85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les1_Ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Les1_Ex4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunManager" selected="Python.Les1_Ex4">
     <configuration name="Les1_Ex3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -100,6 +103,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -135,6 +141,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -144,29 +151,33 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589418938212" />
-    <state width="1440" height="204" key="GridCell.Tab.0.bottom" timestamp="1589418998698">
+    <state width="1398" height="192" key="GridCell.Tab.0.bottom" timestamp="1589466725934">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1379" height="204" key="GridCell.Tab.0.bottom/0.23.1440.836/-549.-1057.2560.1057@0.23.1440.836" timestamp="1589417916959" />
-    <state width="1440" height="204" key="GridCell.Tab.0.bottom/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589418998697" />
-    <state width="1440" height="204" key="GridCell.Tab.0.center" timestamp="1589418998696">
+    <state width="1398" height="192" key="GridCell.Tab.0.bottom/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589466725934" />
+    <state width="1398" height="192" key="GridCell.Tab.0.center" timestamp="1589466725933">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1379" height="204" key="GridCell.Tab.0.center/0.23.1440.836/-549.-1057.2560.1057@0.23.1440.836" timestamp="1589417916957" />
-    <state width="1440" height="204" key="GridCell.Tab.0.center/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589418998696" />
-    <state width="1440" height="204" key="GridCell.Tab.0.left" timestamp="1589418998695">
+    <state width="1398" height="192" key="GridCell.Tab.0.center/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589466725933" />
+    <state width="1398" height="192" key="GridCell.Tab.0.left" timestamp="1589466725931">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1379" height="204" key="GridCell.Tab.0.left/0.23.1440.836/-549.-1057.2560.1057@0.23.1440.836" timestamp="1589417916956" />
-    <state width="1440" height="204" key="GridCell.Tab.0.left/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589418998695" />
-    <state width="1440" height="204" key="GridCell.Tab.0.right" timestamp="1589418998697">
+    <state width="1398" height="192" key="GridCell.Tab.0.left/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589466725931" />
+    <state width="1398" height="192" key="GridCell.Tab.0.right" timestamp="1589466725933">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1379" height="204" key="GridCell.Tab.0.right/0.23.1440.836/-549.-1057.2560.1057@0.23.1440.836" timestamp="1589417916958" />
-    <state width="1440" height="204" key="GridCell.Tab.0.right/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589418998697" />
+    <state width="1398" height="192" key="GridCell.Tab.0.right/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589466725933" />
     <state x="517" y="150" key="RollbackChangesDialog" timestamp="1589418789848">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
     <state x="517" y="150" key="RollbackChangesDialog/0.23.1440.836/-549.-1057.2560.1057@0.23.1440.836" timestamp="1589418789848" />
+    <state x="22" y="-856" key="SettingsEditor" timestamp="1589466564725">
+      <screen x="-549" y="-1057" width="2560" height="1057" />
+    </state>
+    <state x="22" y="-856" key="SettingsEditor/0.23.1440.877/-549.-1057.2560.1057@0.23.1440.877" timestamp="1589466564725" />
   </component>
 </project>
