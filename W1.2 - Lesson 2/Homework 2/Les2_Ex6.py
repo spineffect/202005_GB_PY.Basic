@@ -22,3 +22,48 @@
 “ед”: [“шт.”]
 }
 '''
+print('Добро пожаловать в программу "Товары". Введите кое-какие данные и получите аналитику.')
+print('Шаг 1: Введение исходных данных')
+# просим пользователя ввести перечень оцениваемых категорий и формируем структуру словаря (аттрибуты,
+# которые будут заполняться для каждого товара)
+# col_data_list = input("Введите в строку наименование оцениваемых категорий (через запятую), "
+#                  "по которым необходимо собрать статистику:\n")
+# col_data_list = col_data_list.split(', ') # сформируем список категорий
+col_data_list = ['наименование товара', 'цена (тыс. руб)']
+col_data = dict()
+for el in col_data_list:
+    col_data.setdefault(el)
+
+# просим пользователя ввести перечень товаров
+# item_list = input("Введите в строку наименование товаров (через запятую), "
+#                  "по которым необходимо собрать статистику:\n")
+# item_list = item_list.split(', ') # сформируем список товаров
+item_list = ['Компьютер', 'Линейка']
+
+# формируем структуру словаря пользовательских данных для анализа
+user_data = dict()
+for el in item_list:
+    user_data.setdefault(el, col_data)
+
+for key in user_data:
+    for key2 in col_data:
+        if key in item_list:
+            user_data[key][key2] = key
+    #    else:
+    #        tmp = input(f'введите "{key2}" для группы товаров "{key}"\n')
+    #        user_data[key][key2] = tmp
+
+
+'''
+for el in item_list:
+    for key in col_data:
+        a = input('test')
+        user_data[el][kel] = a
+
+    for kel in range(1,len(col_data_list)):
+        col_data[col_data_list[0]] = el
+        col_data[col_data_list[kel]] = input(f'Для товарной группы [{el}] введите значение показателя '
+                                             f'[{col_data_list[kel]}]:\n')
+    user_data[el] = col_data;
+print(user_data.items())
+'''
