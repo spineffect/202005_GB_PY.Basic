@@ -1,6 +1,21 @@
-#  Copyright (c) 2020. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#  Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.
-#  Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
-#  Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
-#  Vestibulum commodo. Ut rhoncus gravida arcu.
+'''
+1. Реализовать функцию, принимающую два числа (позиционные аргументы) и выполняющую их деление.
+Числа запрашивать у пользователя, предусмотреть обработку ситуации деления на ноль.
+'''
+def devide(a,b):
+    if b != 0:    # из первого варианта решения, когда в зависимости от значения b выводился нужный вариант ответа
+        result = a / b
+    else:
+        result = 'Мы не делим числа на 0.'
+    return result
+
+a = input('Введите делимое число: ')
+a = int(a)
+b = input('Введите число-делитель: ')
+b = int(b)
+
+print(devide(a, b))
+
+
+
 
