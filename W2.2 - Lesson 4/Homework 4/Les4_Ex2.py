@@ -6,5 +6,14 @@
 Для чисел в пределах от 20 до 240 найти числа, кратные 20 или 21. Необходимо решить задание в одну строку.
 Подсказка: использовать функцию range() и генератор.
 '''
+import random
+n_el = 6; nmin = 1 ;nmax = 666
+#generator = (random.randint(nmin, nmax) for el in range(n_el))
+a is list
+for el in range(n_el):
+    a[el] = random.randint(nmin, nmax)
+    print (el, a, sep="///")
+
+
 
 
