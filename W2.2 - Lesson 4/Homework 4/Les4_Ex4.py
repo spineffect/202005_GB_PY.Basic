@@ -4,3 +4,10 @@
 Необходимо получить результат вычисления произведения всех элементов списка.
 Подсказка: использовать функцию reduce().
 '''
+from random import randint
+lst = [2 * randint(50, 500) for el in range(20)]
+print(lst)
+
+from functools import reduce
+print(reduce(lambda a,b : a*b, lst))
+
