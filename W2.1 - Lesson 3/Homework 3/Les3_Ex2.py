@@ -35,9 +35,3 @@ print_ud(user_data_list)
 user_data_list = "Иванов, Иван, 1980, Москва, ..., .."
 print(type(user_data_list))
 print_ud(user_data_list)
-
-
-
-
-
-

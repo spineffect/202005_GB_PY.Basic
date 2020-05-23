@@ -15,7 +15,3 @@ b = input('Введите число-делитель: ')
 b = int(b)
 
 print(devide(a, b))
-
-
-
-
