@@ -7,13 +7,21 @@
 Подсказка: использовать функцию range() и генератор.
 '''
 import random
-n_el = 6; nmin = 1 ;nmax = 666
-#generator = (random.randint(nmin, nmax) for el in range(n_el))
-a is list
-for el in range(n_el):
-    a[el] = random.randint(nmin, nmax)
-    print (el, a, sep="///")
 
 
+def lst_conv(lst):
+    res = []
+    for el in inp_list[1:]:
+        if el > inp_list[inp_list.index(el) - 1]:
+            res.append(el)
+    return res
 
+inp_list = [random.randint(0, 999) for el in range(10)]
+print(f"Исходный список:\n{inp_list}")
+print(f"Список после выборки нужных элементов исходного списка, "
+      f"значения которых больше предыдущего элемента:\n{lst_conv(inp_list)}")
+print ("="*120,"\n")
+
+num = [el for el in range(20, 240) if (el%20 == 0) or (el % 21 == 0)]
+print(f"Количество чисел в интервале от 20 до 240 (кратных 20 или 21) - {len(num)} числа, в т.ч.\n{num}")
 
