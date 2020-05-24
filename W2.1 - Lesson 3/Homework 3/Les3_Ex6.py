@@ -23,5 +23,4 @@ def sep_words(words):
 
 word_list = 'lorem ipSUm doLOR sIt aMEt, consectetur adipiscing elit'
 print(f'Было:\n{word_list}')
-
 print(f'Стало:\n{sep_words(word_list)}')

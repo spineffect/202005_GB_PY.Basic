@@ -36,8 +36,11 @@ user_data_list = "Иванов, Иван, 1980, Москва, ..., .."
 print(type(user_data_list))
 print_ud(user_data_list)
 
-
-
-
-
-
+'''
+на подумать в будущем (решение с урока)
+name = kwargs.get('Имя', '')
+sname = kwargs.get('Фамилия','')
+b-year = kwargs.get('год рождения','')
+city = kwargs.get('город проживания','')
+phone = kwargs.get('телеон','')
+'''
